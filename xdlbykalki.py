@@ -16,9 +16,6 @@ _0x2345 = [_0x8372("}#p}}ly5jvt"), _0x8372("5jvt"), _0x8372("~~~5}#p}}ly5jvt"), 
 _0x3456 = [_0x9183("moc.rettiwt"), _0x9183("moc.x"), _0x9183("moc.rettiwt.www"), _0x9183("moc.x.www")]
 
 
-_0x7890 = """
-
-
 def display_banner():
     banner = """
 \033[1;36m
@@ -29,7 +26,7 @@ def display_banner():
 ██╔╝ ██╗██████╔╝███████╗
 ╚═╝  ╚═╝╚═════╝ ╚══════╝
 
-    \033[1;32m[ Twitter / X Termux Downloader ]\033[0m
+    \033[1;32m[ Twitter Termux X Downloader ]\033[0m
     \033[1;33m[ Created by Cyber Kalki ]\033[0m
     \033[1;34m[\x1b]8;;https://kalkikrivadna.com\x1b\\https://kalkikrivadna.com\x1b]8;;\x1b\\]\033[0m
     \033[1;35m[\x1b]8;;https://github.com/krivadna\x1b\\https://github.com/krivadna\x1b]8;;\x1b\\]\033[0m
@@ -64,8 +61,13 @@ DESCRIPTION:
   The tool will try each method in sequence until one succeeds.
 """
 
+_0x7890 = display_banner
+
+# Simple animation counter
+animation_counter = 0
+
 def _0xA831():
-    print(_0x7890)
+    _0x7890()
     try:
         import time as _t
         _t.sleep(1)
@@ -101,6 +103,21 @@ def _0xE275(url):
         if match:
             return match.group(1)
     return None
+
+def show_animated_progress(percent, downloaded_mb, total_mb):
+    """Display a progress bar with simple animation that works reliably in Termux"""
+    global animation_counter
+    animation_counter = (animation_counter + 1) % 4
+    
+    # Simple animation characters
+    animation = ['-', '\\', '|', '/'][animation_counter]
+    
+    bar_width = 30
+    filled_length = int(bar_width * percent / 100)
+    bar = '█' * filled_length + '▒' * (bar_width - filled_length)
+    
+    sys.stdout.write(f"\r\033[1;36m[{animation}] [{bar}] {percent}% ({downloaded_mb:.1f}MB / {total_mb:.1f}MB)\033[0m")
+    sys.stdout.flush()
 
 def _0xF386(url, output_dir=_0x1234):
     try:
@@ -205,13 +222,16 @@ def _0x1A97(url, output_dir=_0x1234):
                 
                 with open(output_path, 'wb') as f:
                     downloaded = 0
+                    chunk_count = 0
                     for chunk in video_response.iter_content(chunk_size=1024*1024):
                         if chunk:
                             f.write(chunk)
                             downloaded += len(chunk)
+                            chunk_count += 1
                             if total_size > 0:
                                 percent = int(100 * downloaded / total_size)
-                                print(f"\r\033[1;36mDownload progress: {percent}% ({downloaded/(1024*1024):.1f}MB / {total_size/(1024*1024):.1f}MB)\033[0m", end="")
+                                # Update animation every chunk
+                                show_animated_progress(percent, downloaded/(1024*1024), total_size/(1024*1024))
                 
                 print(f"\n\033[1;32mVideo successfully downloaded to {output_path}\033[0m")
                 return True
@@ -282,13 +302,16 @@ def _0x2BA8(url, output_dir=_0x1234):
                 
                 with open(output_path, 'wb') as f:
                     downloaded = 0
+                    chunk_count = 0
                     for chunk in video_response.iter_content(chunk_size=1024*1024):
                         if chunk:
                             f.write(chunk)
                             downloaded += len(chunk)
+                            chunk_count += 1
                             if total_size > 0:
                                 percent = int(100 * downloaded / total_size)
-                                print(f"\r\033[1;36mDownload progress: {percent}% ({downloaded/(1024*1024):.1f}MB / {total_size/(1024*1024):.1f}MB)\033[0m", end="")
+                                # Update animation every chunk
+                                show_animated_progress(percent, downloaded/(1024*1024), total_size/(1024*1024))
                 
                 print(f"\n\033[1;32mVideo successfully downloaded to {output_path}\033[0m")
                 return True
