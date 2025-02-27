@@ -90,7 +90,7 @@ Or in the directory specified with the `-o` option.
 
 ## 🎥 Live Demo
 
-[![Watch Demo](https://img.shields.io/badge/Watch_Demo-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/c/2308295199/46)
+[![Watch Demo](https://img.shields.io/badge/Watch_Demo-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/c/2308295199/117)
 
 
 ## ⏯️ Instagram Downloader for Termux (ITDL)
