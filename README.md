@@ -92,51 +92,11 @@ Or in the directory specified with the `-o` option.
   - requests
   - beautifulsoup4
 
-## 🚀 Features in Detail
-
-- **Multiple Download Methods**: Uses three different methods to ensure successful downloads:
-  1. yt-dlp (preferred method)
-  2. twdown.net web service
-  3. savetweetvid.com web service
-- **Progress Display**: Shows download progress with visual bar
-- **Error Handling**: Comprehensive error messages and automatic fallback to alternative methods
-- **Custom Output Directory**: Specify your preferred save location
-- **Colorful Interface**: Beautiful color-coded terminal output
-- **URL Normalization**: Handles various Twitter/X URL formats
-
-## 🔍 Troubleshooting
-
-If you encounter issues:
-
-1. Ensure storage permissions are granted:
-```bash
-termux-setup-storage
-```
-
-2. Check if the download directory exists:
-```bash
-ls ~/storage/downloads/Twitter/Main
-```
-
-3. Verify internet connection:
-```bash
-ping google.com
-```
-
-4. Update dependencies:
-```bash
-pip install --upgrade yt-dlp requests beautifulsoup4
-```
-
-5. Try a different download method by letting the script automatically fall back to alternative methods
 
 ## 🎥 Live Demo
 
 [![Watch Demo](https://img.shields.io/badge/Watch_Demo-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/c/2308295199/46)
 
-## Access our X/Twitter downloader Bot on Telegram
-
-https://t.me/savetwitterbykalki_bot
 
 ## ⏯️ Instagram Downloader for Termux (ITDL)
 
