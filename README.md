@@ -97,6 +97,10 @@ Or in the directory specified with the `-o` option.
 
 [![Check Repository](https://img.shields.io/badge/📥_Check_Repository-121011?style=for-the-badge&logo=github&logoColor=white&labelColor=black)](https://github.com/krivadna/termuxinstadownloader)
 
+## ⏯️ YouTube Downloader for Termux (YTDL)
+
+[![Check Repository](https://img.shields.io/badge/📥_Check_Repository-121011?style=for-the-badge&logo=github&logoColor=white&labelColor=black)](https://github.com/krivadna/Youtubedownloadtermux)
+
 ## 💼 Professional Services
 
 Contact for:
