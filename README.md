@@ -76,17 +76,6 @@ Downloaded files are saved in:
 ```
 Or in the directory specified with the `-o` option.
 
-## 📋 Requirements
-
-- Python 3.x
-- Termux
-- Internet connection
-- Storage permission
-- The script will automatically install required packages:
-  - yt-dlp
-  - requests
-  - beautifulsoup4
-
 
 ## 🎥 Live Demo
 
