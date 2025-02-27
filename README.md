@@ -45,12 +45,7 @@ git clone https://github.com/krivadna/xdlbykalki.git
 cd xdlbykalki
 ```
 
-4. Set up storage permissions:
-```bash
-termux-setup-storage
-```
-
-5. Run the script (dependencies will be installed automatically when needed):
+4. Run the script (dependencies will be installed automatically when needed):
 ```bash
 python xdlbykalki.py -h
 ```
