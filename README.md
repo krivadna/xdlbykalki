@@ -4,7 +4,7 @@
 
 [![Clone Repository](https://img.shields.io/badge/📥_Clone_This_Repository-121011?style=for-the-badge&logo=github&logoColor=white&labelColor=black)](https://github.com/krivadna/xdlbykalki.git)
 
-![Animated Banner](https://i.postimg.cc/KY4xbrvT/IMG-20250227-134050.jpg)
+![Animated Banner](https://i.imgur.com/VtGvb2b.jpeg)
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=krivadna.xdlbykalki)
