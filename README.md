@@ -116,6 +116,8 @@ This tool is for educational purposes only. Please respect Twitter/X's terms of 
 
 [![Support Project](https://img.shields.io/badge/Support_This_Project-Buy_Me_A_Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://ko-fi.com/kalkikrivadna)
 
+<p align="center"> <a href="https://ko-fi.com/kalkikrivadna"><img src="assets/kofi-button.png" alt="Support me on Ko-fi"></a> </p
+
 ## 📝 License
 
 This project is licensed under the MIT License.
