@@ -114,7 +114,7 @@ This tool is for educational purposes only. Please respect Twitter/X's terms of 
 
 ## ⭐ Show your support
 
-[![Support Project](https://img.shields.io/badge/Support_This_Project-Buy_Me_A_Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/kalkimahavatar)
+[![Support Project](https://img.shields.io/badge/Support_This_Project-Buy_Me_A_Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://ko-fi.com/kalkikrivadna)
 
 ## 📝 License
 
