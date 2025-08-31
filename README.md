@@ -81,6 +81,10 @@ Or in the directory specified with the `-o` option.
 
 [![Watch Demo](https://img.shields.io/badge/Watch_Demo-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/c/2308295199/117)
 
+## 🎥 X Downloader Telegram BOT 
+
+(https://img.shields.io/badge/Watch_Demo-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/xvideosdwbot)
+
 
 ## ⏯️ Instagram Downloader for Termux (ITDL)
 
